@@ -3,12 +3,13 @@
       <div class="row">
           <div class="col-lg-6">
             <h3 class="column-title">Who We Are</h3>
-            <p>{{site.data.whoweare.aboutpt1}}</p>
-            <blockquote><p>{{site.data.whoweare.quote}}</p></blockquote>
-            <p>{{site.data.whoweare.aboutpt2}}</p>
-  
+            {%for item in site.data.whoweare %}
+            <p>{{ item.aboutpt1 }}</p>
+            <blockquote><p>{{item.quote}}</p></blockquote>
+            <p>{{item.aboutpt2}}</p>
+            {% endfor %}
           </div><!-- Col end -->
-  
+          
           <div class="col-lg-6 mt-5 mt-lg-0">
             
             <div id="page-slider" class="page-slider small-bg">
