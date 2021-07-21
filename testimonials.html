@@ -2,13 +2,13 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-
 {% include head.html %}
 <body>
 <!-- Header start -->
 {% include header.html %}
 
-<div class="paralax-mf bg-image" style="background-image: url(/assets/images/contact/contact-banner.jpg)">
+<!--/ Header end -->
+<div class="paralax-mf bg-image" style="background-image: url(/assets/images/banner/banner1.PNG)">
   <div class="overlay-mf"></div>
   <div id="banner-area" class="banner-area">
     <div class="banner-text">
@@ -16,30 +16,34 @@
           <div class="row">
             <div class="col-lg-12">
                 <div class="banner-heading">
-                  <h1 class="banner-title">Contact</h1>
+                  <h1 class="banner-title">Testimonials</h1>
                   <nav aria-label="breadcrumb">
                       <ol class="breadcrumb justify-content-center">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Contact</a></li>
-                      
+                        <li class="breadcrumb-item"><a href="#">company</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Testimonials</li>
                       </ol>
-                  </nav> 
+                  </nav>
                 </div>
             </div><!-- Col end -->
           </div><!-- Row end -->
       </div><!-- Container end -->
     </div><!-- Banner text end -->
-  </div><!-- Banner area end -->
+  </div><!-- Banner area end --> 
 </div>
-{%include contact-main.html%}
+
+{% include testimonials-main.html %}
 <!-- Main container end -->
 
 {% include footer.html %}
-<!-- Javascript Files
-================================================== -->
-{% include javascript.html %}
+<!-- Footer end -->
 
-</div><!-- Body inner end -->
-</body>
 
-</html>
+  <!-- Javascript Files
+  ================================================== -->
+  {% include javascript.html %}
+
+  </div><!-- Body inner end -->
+  </body>
+
+  </html>
