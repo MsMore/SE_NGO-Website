@@ -1,0 +1,19 @@
+<div class="sidebar sidebar-right">
+    <div class="widget recent-posts">
+      <h3 class="widget-title">Recent Posts</h3>
+      <ul class="list-unstyled">
+        {% for item in site.data.recentfaq %}
+        <li class="d-flex align-items-center">
+          <div class="posts-thumb">
+            <a href="#"><img loading="lazy" alt="news-image" src="/assets/images/news/news1.jpg"></a>
+          </div>
+          <div class="post-info">
+            <h4 class="entry-title">
+              <a href="#">{{item.post}}</a>
+            </h4>
+          </div>
+        </li><!-- 1st post end-->
+        {% endfor %}
+    </ul>
+    </div><!-- Recent post end -->
+  </div>

@@ -1,0 +1,22 @@
+- number: One
+  btnclass: "btn btn-block text-left"
+  heading: "headingOne"
+  collapse: "collapseOne"
+  datatarget: "#collapseOne"
+  activate: "true"
+  class: "show"
+  generalq: Which rotract can i join?
+  generala:
+    There are many rotarty clubs throughout the world. You can join the nearest one.           <div>
+    <a class = "rc-near-me" href="https://www.google.com/maps/search/rotaract+near+me">Rotract's near me</a>
+    </div>
+
+- number: Two
+  btnclass: "btn btn-block text-left collapsed"
+  heading: "headingTwo"
+  collapse: "collapseTwo"
+  datatarget: "#collapseTwo"
+  activate: "false"
+  class: "collapse"
+  generalq: What is an appointed person?
+  generala: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
