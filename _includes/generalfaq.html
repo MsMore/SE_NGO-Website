@@ -1,0 +1,21 @@
+<div class="accordion accordion-group accordion-classic" id="construction-accordion">
+    {% for item in site.data.generalfaq %}
+    <div class="card">
+      <div class="card-header p-0 bg-transparent" id={{item.heading}} >
+        <h2 class="mb-0">
+          <button class={{item.btnclass}} type="button" data-toggle="collapse" data-target={{item.datatarget}}
+            aria-expanded={{item.activate}} aria-controls={{item.collapse}}>
+            {{item.generalq}}
+          </button>
+        </h2>
+      </div>
+
+      <div id={{item.collapse}} class={{item.class}} aria-labelledby={{item.heading}}
+        data-parent="#construction-accordion">
+        <div class="card-body">
+          {{item.generala}}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
