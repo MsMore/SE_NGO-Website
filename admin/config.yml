@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: Riddhi-Tanmay/SE_NGO-Website
+  repo: K-A-R-T/SE_NGO-Website
   branch: main # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
