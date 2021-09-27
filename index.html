@@ -1,23 +1,38 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+<body>
+  <div class="body-inner">
 
+    <!-- Header start -->
+   {% include header.html %}
+    <!--/ Header end -->
+    {% include banner.html %}
+    <!-- banner-carousel end -->
+    {% include banner-text.html %}
+    <!-- Action end -->
+    {% include upcoming.html %}
+    <!--/ upcoming events end -->
+    {% include project.html %}
+    <!-- Project area end -->
+    {% include testimonials.html %}
+    <!-- Testimonials ends -->
+    {% include facts.html %}
+    <!-- Facts end -->
+    {% include about.html %}
+    <!-- About us -->
+    {% include subscribe.html %}
+    <!--/ subscribe end -->
+    {% include feature.html %}
+    <!-- Feature are end -->
+    {% include footer.html %}
+    <!-- javascript files end -->
+    {% include javascript.html %}
+  </div><!-- Body inner end -->
 
-{% include banner.html %}
-<!-- banner-carousel end -->
-{% include banner-text.html %}
-<!-- Action end -->
-{% include upcoming.html %}
-<!--/ upcoming events end -->
-{% include project.html %}
-<!-- Project area end -->
-{% include testimonials.html %}
-<!-- Testimonials ends -->
-{% include facts.html %}
-<!-- Facts end -->
-{% include about.html %}
-<!-- About us -->
-{% include subscribe.html %}
-<!--/ subscribe end -->
-{% include feature.html %}
-<!-- Feature are end -->
+</body>
+
+</html>
