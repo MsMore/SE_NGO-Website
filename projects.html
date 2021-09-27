@@ -15,7 +15,59 @@ layout: default
         </div><!-- Sidebar end -->
         
       </div><!-- Sidebar Col end -->
-      {% include allprojects.html %}
+      
+
+
+      <div class="col-lg-8 mb-5 mb-lg-0 order-0 order-lg-1">
+  
+        {% for projects in site.posts %}
+          <div class="post">
+            <div class="post-media post-image">
+              <img loading="lazy" src="{{projects.thumb}}" class="img-fluid" alt="post-image">
+            </div>
+      
+            <div class="post-body">
+              <div class="entry-header">
+                <div class="post-meta">
+      
+                  <span class="post-meta-date"><i class="far fa-calendar"></i> {{projects.date}} </span>
+      
+                </div>
+                <h2 class="entry-title">
+                  <a href="news-single.html">{{projects.title}}</a>
+                </h2>
+              </div><!-- header end -->
+              
+              <div class="entry-content">
+                <p> {{projects.description}} </p>
+              </div>
+      
+      
+            </div><!-- post-body end -->
+          </div>
+        {% endfor %}
+      <!--     <nav class="paging" aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
+              
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              
+              <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
+            </ul>
+          </nav> -->
+      
+        </div><!-- Content Col end -->
+
+
+
+
+
+
+
+
+
 
     </div><!-- Main row end -->
 
