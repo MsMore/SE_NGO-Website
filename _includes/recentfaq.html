@@ -2,7 +2,7 @@
     <div class="widget recent-posts">
       <h3 class="widget-title">Recent Posts</h3>
       <ul class="list-unstyled">
-        {% for item in site.data.recentfaq %}
+        {% for item in site.categories.recentpost %}
         <li class="d-flex align-items-center">
           <div class="posts-thumb">
             <a href="#"><img loading="lazy" alt="news-image" src="{{item.thumb}}"></a>
