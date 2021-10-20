@@ -13,19 +13,19 @@
           <div class="row shuffle-wrapper">
             
             <div class="col-1 shuffle-sizer"></div>
-            {% for item in site.data.project %}
+            {% for items in site.categories.upcoming project %}
             <div class="col-lg-4 col-md-6 shuffle-item">
               <div class="project-img-container">
                 <a class="gallery-popup" href="/assets/images/projects/project1.jpg" aria-label="project-img">
-                  <img class="img-fluid" src="/assets/images/projects/project1.jpg" alt="project-img">
+                  <img class="img-fluid" src="{{items.thumb}}" alt="project-img">
                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                 </a>
                 <div class="project-item-info">
                   <div class="project-item-info-content">
                     <h3 class="project-item-title">
-                      <a href="project.html">{{item.title}}</a>
+                      <a href="project.html">{{items.title}}</a>
                     </h3>
-                    <p class="project-cat">{{item.avenue}}</p>
+                    <p class="project-cat">{{items.avenue}}</p>
                   </div>
                 </div>
               </div>
