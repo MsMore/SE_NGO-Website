@@ -54,8 +54,8 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
 
-  - name: "Recent Project"
-    label: "recent project"
+  - name: "RecentProject"
+    label: "recentproject"
     folder: "_posts/recentproj"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
