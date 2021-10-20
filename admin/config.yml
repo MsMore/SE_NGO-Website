@@ -56,7 +56,7 @@ collections:
 
   - name: "Recent Project"
     label: "recent project"
-    folder: "_posts/upcoming_project"
+    folder: "_posts/recentproj"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
