@@ -42,3 +42,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
+
+  - name: "Upcoming"
+    label: "Upcoming Events"
+    folder: "_posts/upcoming"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Category", name: "categories", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "thumb", widget: "image" }
