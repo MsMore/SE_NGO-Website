@@ -1,5 +1,5 @@
 ---
-categories: ProfessionalTeam
+categories: professionalteam
 name: Anuj
 designation: noob
 thumb: /images/uploads/zombo-mf.png

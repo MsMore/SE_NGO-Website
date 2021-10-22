@@ -33,7 +33,7 @@ collections:
       - { label: "Image", name: "thumb", widget: "image" }
 
   - name: "ProfessionalTeam"
-    label: "Professional team"
+    label: "ProfessionalTeams"
     folder: "_posts/professionalteam"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -45,7 +45,7 @@ collections:
       - { label: "Information", name: "information", widget: "string" }
 
   - name: "RecentPost"
-    label: "Recent post"
+    label: "RecentPosts"
     folder: "_posts/recentpost"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
