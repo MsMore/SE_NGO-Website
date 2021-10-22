@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: K-A-R-T/SE_NGO-Website
+  repo: AnujPathare/SE_NGO-Website
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -31,3 +31,25 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
+
+  - name: "ProfessionalTeam"
+    label: "ProfessionalTeams"
+    folder: "_posts/professionalteam"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Category", name: "categories", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Designation", name: "designation", widget: "string" }
+      - { label: "Image", name: "thumb", widget: "image" }
+      - { label: "Information", name: "information", widget: "string" }
+
+  - name: "RecentPost"
+    label: "RecentPosts"
+    folder: "_posts/recentpost"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Category", name: "categories", widget: "string" }
+      - { label: "Image", name: "thumb", widget: "image" }
+      - { label: "Information", name: "information", widget: "string" }
