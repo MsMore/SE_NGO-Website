@@ -73,10 +73,17 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Category", name: "categories", widget: "string" }
+<<<<<<< HEAD
       - { label: "Comment", name: "comment", widget: "string" }
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
       - { label: "Image", name: "thumb", widget: "image" }
+=======
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Designation", name: "designation", widget: "string" }
+      - { label: "Image", name: "thumb", widget: "image" }
+      - { label: "Comment", name: "comment", widget: "string" }
+>>>>>>> 17e74fd3a1a0c8958e8ade8147a7b6032143a511
 
   - name: "ProfessionalTeam"
     label: "ProfessionalTeams"
@@ -98,4 +105,8 @@ collections:
     fields:
       - { label: "Category", name: "categories", widget: "string" }
       - { label: "Image", name: "thumb", widget: "image" }
+<<<<<<< HEAD
       - { label: "Information", name: "information", widget: "string" }
+=======
+      - { label: "Information", name: "information", widget: "string" }
+>>>>>>> 17e74fd3a1a0c8958e8ade8147a7b6032143a511
