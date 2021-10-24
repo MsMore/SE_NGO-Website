@@ -28,6 +28,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Title", name: "title", widget: "string" }
@@ -54,6 +55,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Title", name: "title", widget: "string" }
@@ -79,6 +81,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Title", name: "title", widget: "string" }
@@ -104,6 +107,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Title", name: "title", widget: "string" }
@@ -129,6 +133,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Title", name: "title", widget: "string" }
@@ -155,6 +160,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Comment", name: "comment", widget: "string" }
@@ -181,6 +187,7 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Name", name: "name", widget: "string" }
@@ -207,7 +214,34 @@ collections:
               "recentproj",
               "testimonials",
               "upcoming",
+              "feature",
             ],
         }
       - { label: "Image", name: "thumb", widget: "image" }
       - { label: "Information", name: "information", widget: "string" }
+
+  - name: "Feature"
+    label: "feature"
+    folder: "_posts/feature"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "testimonials",
+              "upcoming",
+              "feature",
+            ],
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "thumb", widget: "image" }
+      - { label: "Description", name: "description", widget: "string" }
