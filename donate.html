@@ -2,6 +2,13 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  .button-container {
+    padding: 50px;
+    margin-right: 700px;
+  }
+  
+</style>
 {% include head.html %}
 <body>
 <!-- Header start -->
@@ -30,8 +37,9 @@
     </div><!-- Banner text end -->
   </div><!-- Banner area end -->
 </div>
-
-<div id='dbutton-container'></div>
+<div class="button-container">
+    <div id='dbutton-container'></div>
+</div>
 <script async
   src="https://pay.google.com/gp/p/js/pay.js"
   onload="onGooglePayLoaded()"></script>
