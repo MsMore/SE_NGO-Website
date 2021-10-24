@@ -212,7 +212,4 @@ collections:
         }
       - { label: "Image", name: "thumb", widget: "image" }
       - { label: "Information", name: "information", widget: "string" }
-<<<<<<< HEAD
-=======
 
->>>>>>> 29df1a2b69cb1633320561e271ca8b5a78620904
