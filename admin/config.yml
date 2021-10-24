@@ -26,7 +26,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -52,7 +52,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -77,7 +77,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -102,7 +102,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -127,7 +127,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -153,7 +153,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -161,7 +161,6 @@ collections:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
       - { label: "Image", name: "thumb", widget: "image" }
-
 
   - name: "ProfessionalTeam"
     label: "ProfessionalTeams"
@@ -180,7 +179,7 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
@@ -206,10 +205,9 @@ collections:
               "professionalteam",
               "recent",
               "recentproj",
-              "tesimonials",
+              "testimonials",
               "upcoming",
             ],
         }
       - { label: "Image", name: "thumb", widget: "image" }
       - { label: "Information", name: "information", widget: "string" }
-
