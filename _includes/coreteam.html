@@ -10,16 +10,16 @@
       <div class="row">
           <div class="col-lg-12">
             <div id="team-slide" class="team-slide">
-              {% for item in site.data.coreteam %}  
+              {% for item in site.categories.professionalteam %}  
               <div class="item">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                        <img loading="lazy" class="w-100" src="/assets/images/team/team1.jpg" alt="team-img">
+                        <img loading="lazy" class="w-100" src="{{item.thumb}}" alt="team-img">
                       </div>
                       <div class="ts-team-content">
                         <h3 class="ts-name">{{item.name}}</h3>
                         <p class="ts-designation">{{item.designation}}</p>
-                        <p class="ts-description">{{item.intro}}</p>
+                        <p class="ts-description">{{item.information}}</p>
                         <div class="team-social-icons">
                             <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
