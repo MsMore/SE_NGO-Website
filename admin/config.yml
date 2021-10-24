@@ -15,7 +15,21 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -27,7 +41,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -38,7 +66,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -49,7 +91,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -60,7 +116,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -72,18 +142,25 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
-<<<<<<< HEAD
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Comment", name: "comment", widget: "string" }
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
       - { label: "Image", name: "thumb", widget: "image" }
-=======
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Designation", name: "designation", widget: "string" }
-      - { label: "Image", name: "thumb", widget: "image" }
-      - { label: "Comment", name: "comment", widget: "string" }
->>>>>>> 17e74fd3a1a0c8958e8ade8147a7b6032143a511
 
   - name: "ProfessionalTeam"
     label: "ProfessionalTeams"
@@ -91,7 +168,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
       - { label: "Image", name: "thumb", widget: "image" }
@@ -103,10 +194,20 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Category", name: "categories", widget: "string" }
+      - {
+          label: "Category",
+          name: "categories",
+          widget: "select",
+          options:
+            [
+              "projects",
+              "fun",
+              "professionalteam",
+              "recent",
+              "recentproj",
+              "tesimonials",
+              "upcoming",
+            ],
+        }
       - { label: "Image", name: "thumb", widget: "image" }
-<<<<<<< HEAD
       - { label: "Information", name: "information", widget: "string" }
-=======
-      - { label: "Information", name: "information", widget: "string" }
->>>>>>> 17e74fd3a1a0c8958e8ade8147a7b6032143a511
