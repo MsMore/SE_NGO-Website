@@ -1,7 +1,7 @@
 ---
 categories: professionalteam
-name: Alena
-designation: Manager
-thumb: https://miro.medium.com/max/1024/1*gDp6Eg2mkO6b3UnxWPO8ng.jpeg
-information: NA
+name: ANUJ PATHARE
+designation: Chief Financial Officer.
+thumb: /images/uploads/.trashed-1637576411-img20211023154959.jpg
+information: "CFO: HDB Financial Services."
 ---
