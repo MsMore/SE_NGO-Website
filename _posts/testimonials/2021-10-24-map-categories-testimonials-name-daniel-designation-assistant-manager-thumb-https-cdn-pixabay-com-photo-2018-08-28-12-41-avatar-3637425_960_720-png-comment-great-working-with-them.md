@@ -1,7 +1,8 @@
 ---
 categories: testimonials
-name: Daniel
+comment: "Love the initiative of 'Plastic free Planet!' Give my regards to the
+  club and the person who came up with this initiative. "
+name: Dr. Adil Singh
 designation: Assistant Manager
-thumb: https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png
-comment: Great working with them!
+thumb: https://thumbs.dreamstime.com/z/indian-male-doctor-outdoor-photo-65798622.jpg
 ---
