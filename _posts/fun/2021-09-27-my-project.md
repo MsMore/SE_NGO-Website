@@ -1,6 +1,6 @@
 ---
 categories: fun
-title: My project
+title: Interactive wall paintings.
 date: 2021-09-27T17:58:32.123Z
-thumb: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+thumb: https://diyaindia.org/images/events/school-wall-painting/small_1511966119.jpg
 ---
